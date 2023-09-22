@@ -1,7 +1,7 @@
 # Team 5 - SWE 3313 Project
 
 ### Team Members:
-Trey Morris	
-Vera Warren-Aliff	
-Alejandro Albarran
-	
+1. Trey Morris	
+2. Vera Warren-Aliff	
+3. Alejandro Albarran
+4. 
