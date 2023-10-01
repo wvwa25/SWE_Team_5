@@ -6,14 +6,14 @@
   We will build an e-commerce website using [*insert technology and tools here*] to sell [*insert item sold here*].
 
 ### Meet our Team
-  - [Trey Morris](trey_morris-résumé.md)
-  - [Vera Warren-Aliff](vera_warren_aliff-résumé.md)
-  - [Alejandro Albarran](alejandro_albarran-résumé.md)
-  - [Syl Fowler-Berken](syl_fowler_berken-résumé.md)
+  - [Trey Morris](Project/trey_morris-résumé.md)
+  - [Vera Warren-Aliff](Project/vera_warren_aliff-résumé.md)
+  - [Alejandro Albarran](Project/alejandro_albarran-résumé.md)
+  - [Syl Fowler-Berken](Project/syl_fowler_berken-résumé.md)
 
-### [Team Assignments](team-assignments.md)
+### [Team Assignments](Project/team-assignments.md)
 
-### [Technology Selection](technology-selection.md)
+### [Technology Selection](Project/technology-selection.md)
 
 ### [Gantt Chart]()
 
