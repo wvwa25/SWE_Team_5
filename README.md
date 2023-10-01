@@ -11,10 +11,10 @@
   - [Alejandro Albarran](alejandro_albarran-résumé.md)
   - [Syl Fowler-Berken](syl_fowler_berken-résumé.md)
 
-[### Team Assignments](team-assignments.md)
+### [Team Assignments](team-assignments.md)
 
-[### Technology Selection](technology-selection.md)
+### [Technology Selection](technology-selection.md)
 
-[### Gantt Chart]()
+### [Gantt Chart]()
 
-[### Video Presentation]()
+### [Video Presentation]()
