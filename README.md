@@ -12,3 +12,9 @@
   - [Syl Fowler-Berken](syl_fowler_berken-résumé.md)
 
 [### Team Assignments](team-assignments.md)
+
+[### Technology Selection](technology-selection.md)
+
+[### Gantt Chart]()
+
+[### Video Presentation]()
