@@ -6,9 +6,9 @@
   We will build an e-commerce website using [*insert technology and tools here*] to sell [*insert item sold here*].
 
 ### Meet our Team
-  - Trey Morris	[*resume link goes here*]
-  - Vera Warren-Aliff	[*resume link goes here*]
-  - Alejandro Albarran [*resume link goes here*]
-  - Syl Fowler-Berken [*resume link goes here*]
+  - [Trey Morris](trey_morris-résumé.md)
+  - [Vera Warren-Aliff](vera_warren_aliff-résumé.md)
+  - [Alejandro Albarran](alejandro_albarran-résumé.md)
+  - [Syl Fowler-Berken](syl_fowler_berken-résumé.md)
 
 [Team Assignments](team-assignments.md)
