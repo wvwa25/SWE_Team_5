@@ -11,4 +11,4 @@
   - [Alejandro Albarran](alejandro_albarran-résumé.md)
   - [Syl Fowler-Berken](syl_fowler_berken-résumé.md)
 
-[Team Assignments](team-assignments.md)
+### [Team Assignments](team-assignments.md)
