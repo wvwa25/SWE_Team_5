@@ -10,3 +10,5 @@
   - Vera Warren-Aliff	[*resume link goes here*]
   - Alejandro Albarran [*resume link goes here*]
   - Syl Fowler-Berken [*resume link goes here*]
+
+[Team Assignments](team-assignments.md)
