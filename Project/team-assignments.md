@@ -1,5 +1,5 @@
 ## Team Assignments
-  - [Trey Morris], *role* (trey_morris-résumé.md)
-  - [Vera Warren-Aliff], *role* (vera_warren_aliff-résumé.md)
-  - [Alejandro Albarran], *role* (alejandro_albarran-résumé.md)
-  - [Syl Fowler-Berken], *role* (syl_fowler_berken-résumé.md)
+  - [Trey Morris](trey_morris-résumé.md), *role*
+  - [Vera Warren-Aliff](vera_warren_aliff-résumé.md), *role*
+  - [Alejandro Albarran](alejandro_albarran-résumé.md), *role*
+  - [Syl Fowler-Berken](syl_fowler_berken-résumé.md), *role*
