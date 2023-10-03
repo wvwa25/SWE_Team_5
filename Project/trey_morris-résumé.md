@@ -1,5 +1,6 @@
 # Trey Morris 
 KSU Email: tmorr115@students.kennesaw.edu
+## Role: *role*
 ## Technical Capabilities: 
 ### Languages: 
 * Java
