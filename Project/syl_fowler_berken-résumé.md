@@ -3,9 +3,5 @@
 2. Face
 3. Bagel
 ```
-{
-  "firstName": "Syl",
-  "lastName": "Fowler-Berken",
-  "age": 20
-}
+He's only mostly dead
 ```
