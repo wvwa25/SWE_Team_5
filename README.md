@@ -3,7 +3,7 @@
   Welcome to the Team 5 class project repository for SWE 3313, Introduction to Software Engineering.
   Our presentations, documentation, source code and artifacts will be located here.
 
-  For our application, we will build an e-commerce website using C# and ASP.NET Core Blazor to sell magical Dungeons & Dragons items in exchange for gold coins.
+  For our application, we will build an e-commerce website using C# and ASP.NET Core to sell magical Dungeons & Dragons items in exchange for gold coins.
 
   Please visit the links below for more information about our team and our project plan. 
 
