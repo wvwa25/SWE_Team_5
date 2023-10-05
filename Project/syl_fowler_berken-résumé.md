@@ -7,8 +7,6 @@ KSU Email: sfowlerb@students.kennesaw.edu
 ### Skills:
 * Writing
 ## Technical Experience: 
-### Work Experience
-* N/A
 ### Classes at KSU
 * Introduction Programming & Problem Solving 1
 * Introduction Programming & Problem Solving 2
