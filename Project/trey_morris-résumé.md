@@ -20,5 +20,5 @@ KSU Email: tmorr115@students.kennesaw.edu
 * Intro to Databases
 * Computer Org & Arch 
 
-### Personal Website (Links to Github and LinkedIn)
+## Personal Website (Links to Github and LinkedIn)
 http://treymorris.me/
