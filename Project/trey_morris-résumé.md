@@ -18,7 +18,8 @@ KSU Email: tmorr115@students.kennesaw.edu
 * Kennesaw State UITS - Student Assitant
 ### Classes at KSU
 * Intro to Databases
-* Computer Org & Arch 
+* Computer Org & Arch
+* Programming & Problem-Solving I and II
 
 ## Personal Website (Links to Github and LinkedIn)
 http://treymorris.me/
