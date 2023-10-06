@@ -12,5 +12,5 @@ KSU Email: sfowlerb@students.kennesaw.edu
 * *Gwen Speech Therapy, Front Desk* - job description
 * *Titan Roofing and Construction, Repairing and Renovation* - job description
 ### Classes at KSU
-* Programming & Problem Solving I and II
 * Intro to Software Engineering
+* Programming & Problem-Solving I and II
