@@ -1,7 +1,6 @@
-# Trey Morris 
+# Trey Morris, Technical Lead
 KSU Email: tmorr115@students.kennesaw.edu
-## Role: *role*
-## Technical Capabilities: 
+## Technical Capabilities
 ### Languages: 
 * Java
 * C#
@@ -14,7 +13,7 @@ KSU Email: tmorr115@students.kennesaw.edu
 * API Creation/Consumption
 * Working with Databases
 
-## Technical Experience: 
+## Technical Experience
 ### Work Experience
 * Kennesaw State UITS - Student Assitant
 ### Classes at KSU
