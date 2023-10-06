@@ -7,7 +7,6 @@ KSU Email: sfowlerb@students.kennesaw.edu
 ### Skills:
 * Writing
 * Documentation
-* Research
 ## Technical Experience
 ### Work Experience
 * Gwen Speech Therapy - Front Desk
