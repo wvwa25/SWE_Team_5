@@ -7,10 +7,12 @@ KSU Email: sfowlerb@students.kennesaw.edu
 ### Skills:
 * Writing
 * Documentation
+* Research
 ## Technical Experience
 ### Work Experience
 * Gwen Speech Therapy - Front Desk
 * Titan Roofing and Construction - Repairing and Renovation
 ### Classes at KSU
-* Introduction Programming & Problem Solving 1
-* Introduction Programming & Problem Solving 2
+* Programming & Problem Solving 1
+* Programming & Problem Solving 2
+* Intro to Software Engineering
