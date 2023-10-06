@@ -23,5 +23,5 @@ KSU Email: wwarrena@students.kennesaw.edu
 * Data Structures
 * Programming & Problem-Solving I and II
 
-### Github
+## Github
 [https://github.com/wvwa25](https://github.com/wvwa25)
