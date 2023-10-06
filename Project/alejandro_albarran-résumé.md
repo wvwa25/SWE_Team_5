@@ -1,6 +1,6 @@
-# Alejandro Albarran
+# Alejandro Albarran, Developer
 KSU Email: Aalbarr3@students.kennesaw.edu  
-## Technical Capabilities: 
+## Technical Capabilities
 ### Languages: 
 * Java
 * C#
@@ -9,7 +9,7 @@ KSU Email: Aalbarr3@students.kennesaw.edu
 ### Skills:
 * Algorithms
 
-## Technical Experience: 
+## Technical Experience
 ### Classes at KSU
 * Data Structures
 * Computer Org & Arch
