@@ -15,7 +15,7 @@ KSU Email: tmorr115@students.kennesaw.edu
 
 ## Technical Experience
 ### Work Experience
-* *Kennesaw State UITS - Student Assitant*
+* *Kennesaw State UITS, Student Assitant* - job description
 ### Classes at KSU
 * Intro to Databases
 * Computer Org & Arch
