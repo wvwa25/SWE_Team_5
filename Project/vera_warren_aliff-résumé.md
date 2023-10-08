@@ -11,7 +11,7 @@ KSU Email: wwarrena@students.kennesaw.edu
 * Object-oriented programming
 * Data analysis
 * Technical writing and graphics
-* Producing systems and tools to improvement workflow efficiency and quality 
+* Producing systems and tools to improvement workflow efficiency and quality
 
 ## Technical Experience
 ### Work Experience
@@ -22,6 +22,7 @@ KSU Email: wwarrena@students.kennesaw.edu
 * Computer Org & Arch
 * Data Structures
 * Programming & Problem-Solving I and II
+* Technical Writing
 
 ## Github
 [https://github.com/wvwa25](https://github.com/wvwa25)
