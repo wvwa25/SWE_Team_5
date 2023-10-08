@@ -6,7 +6,7 @@ KSU Email: sfowlerb@students.kennesaw.edu
 * C#
 ### Skills:
 * Writing
-* Documentation
+* Technical documentation
 ## Technical Experience
 ### Work Experience
 * *Gwen Speech Therapy, Front Desk* - Assists customers at the front desk. Directs calls and communicates customer requests to coworkers.
