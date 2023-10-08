@@ -9,8 +9,8 @@ KSU Email: sfowlerb@students.kennesaw.edu
 * Documentation
 ## Technical Experience
 ### Work Experience
-* *Gwen Speech Therapy, Front Desk* - Provided a face at the front desk for when there were none available. Sitting at the front desk and telling someone when there was a call.
-* *Titan Roofing and Construction, Repairing and Renovation* - Assisted with the needed work. Cut wood, nailed nails, climbed on rooftops to put roofing in, Installed and cleaned gutters around houses as well as painting walls and installing insolation.
+* *Gwen Speech Therapy, Front Desk* - Assists customers at the front desk. Directs calls and communicates customer requests to coworkers.
+* *Titan Roofing and Construction, Repairing and Renovation* - Cut and nailed lumber and installed roofing, gutters, and insulation. Cleaned gutters and painted walls.
 ### Classes at KSU
 * Intro to Software Engineering
 * Programming & Problem-Solving I and II
