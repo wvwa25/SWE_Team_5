@@ -17,6 +17,6 @@
 
 ### [Technology Selection](Project/technology-selection.md)
 
-### [Gantt Chart]()
+### [Gantt Chart](https://adkisson-swe-f23.youtrack.cloud/gantt-charts/174-7)
 
 ### [Video Presentation]()
