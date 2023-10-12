@@ -8,14 +8,14 @@
   Please visit the links below for more information about our team and our project plan. 
 
 ### Meet our Team
-  - [Trey Morris](Project/trey_morris-résumé.md)
-  - [Vera Warren-Aliff](Project/vera_warren_aliff-résumé.md)
-  - [Alejandro Albarran](Project/alejandro_albarran-résumé.md)
-  - [Syl Fowler-Berken](Project/syl_fowler_berken-résumé.md)
+  - [Trey Morris](project/trey_morris-résumé.md)
+  - [Vera Warren-Aliff](project/vera_warren_aliff-résumé.md)
+  - [Alejandro Albarran](project/alejandro_albarran-résumé.md)
+  - [Syl Fowler-Berken](project/syl_fowler_berken-résumé.md)
 
-### [Team Assignments](Project/team-assignments.md)
+### [Team Assignments](project/team-assignments.md)
 
-### [Technology Selection](Project/technology-selection.md)
+### [Technology Selection](project/technology-selection.md)
 
 ### [Gantt Chart](https://adkisson-swe-f23.youtrack.cloud/gantt-charts/174-7)
 
