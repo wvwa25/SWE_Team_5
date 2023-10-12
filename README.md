@@ -19,4 +19,4 @@
 
 ### [Gantt Chart](https://adkisson-swe-f23.youtrack.cloud/gantt-charts/174-7)
 
-### [Video Presentation]()
+### [Video Presentation](presentations/1-project-plan-presentation.mp4)
