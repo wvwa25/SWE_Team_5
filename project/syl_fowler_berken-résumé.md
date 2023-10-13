@@ -14,3 +14,5 @@ KSU Email: sfowlerb@students.kennesaw.edu
 ### Classes at KSU
 * Intro to Software Engineering
 * Programming & Problem-Solving I and II
+## Github
+[https://github.com/IndexTheJester](https://github.com/IndexTheJester)
