@@ -19,4 +19,5 @@
 
 ### [Gantt Chart](https://adkisson-swe-f23.youtrack.cloud/gantt-charts/174-7)
 
-### [Video Presentation](presentations/1-project-plan-presentation.mp4)
+### [Video Presentation](presentations/1-project-plan-presentation.mp4) 
+- *If the link above to the GitHub mp4 does not work please use this [Vimeo link](https://vimeo.com/877352593)*
