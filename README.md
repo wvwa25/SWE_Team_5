@@ -13,11 +13,14 @@
   - [Alejandro Albarran](project/alejandro_albarran-résumé.md)
   - [Syl Fowler-Berken](project/syl_fowler_berken-résumé.md)
 
-### [Team Assignments](project/team-assignments.md)
+### Team Assignments
+Click [here](project/team-assignments.md) to view a breakdown of our team assignments.
 
-### [Technology Selection](project/technology-selection.md)
+### Technology Selection
+Click [here](project/technology-selection.md) for a detailed explanation of what technologies and tools we are using.
 
-### [Gantt Chart](https://adkisson-swe-f23.youtrack.cloud/gantt-charts/174-7)
+### Gantt Chart
+Click [here](https://adkisson-swe-f23.youtrack.cloud/gantt-charts/174-7) to view our project plan Gantt Chart in YouTrack.
 
-### [Video Presentation](presentations/1-project-plan-presentation.mp4) 
-- *If the link above to the GitHub mp4 does not work please use this [Vimeo link](https://vimeo.com/877352593)*
+### Video Presentation 
+Click [here](presentations/1-project-plan-presentation.mp4) to download our project plan video presentation in mp4 format. If you have any issues playing this file, please visit this [Vimeo link](https://vimeo.com/877352593).
