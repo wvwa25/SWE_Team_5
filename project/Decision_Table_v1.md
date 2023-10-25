@@ -5,4 +5,4 @@
 
 
 ## BRB
-Have not eaten today and don't have readily availible water to drink. Will come back with fresh painless eyes and a less gittery body.
+Have not eaten today and don't have readily availible water to drink. Will come back with fresh painless eyes and a less gittery body, as I suspect I may have done this wrong.
