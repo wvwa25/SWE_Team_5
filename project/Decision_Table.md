@@ -1,7 +1,7 @@
 | Conditions | Rule 1 | Rule 2 |
 | ---------- | :----: | :----: |
 | Is admin?              | Yes | No | 
-| Self register            | x |   |
+| Self register            |   | x |
 | Log In                   | x | x |
 | Browse Items             | x | x |
 | Search Items             | x | x |
