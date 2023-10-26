@@ -1,4 +1,5 @@
-| Level of access | Log In | Browse Items | Purchase Items | View Purchased Items | Add Items | View/Export Sales Report |
-| --------------- | :----: | :----------: | :------------: | :------------------: | :-------: | :----------------------: |
-| User            | yes    | yes          | yes            | yes                  | No        | No                       |
-| Admin           | yes    | yes          | yes            | yes                  | yes       | yes                      |
+| Is Admin? | Log In    | Browse Items | Search Items | Purchase Items | View Purchased Items | Add Items | View/Export Sales Report | Grant Admin to Users | Add Items via Database |
+| --------- | :-------: | :----------: | :----------: | :------------: | :------------------: | :-------: | :----------------------: | :------------------: | :--------------------: |
+| Yes       | x         | x            | x            | x              | x                    | x         | x                        | x                    | x                      |
+| No        | x         | x            | x            | x              | x                    |           |                          |                      |                        |
+
