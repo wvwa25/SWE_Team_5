@@ -7,7 +7,7 @@
 || Search Items             | x | x |
 || Purchase Items           | x | x |
 || View Purchased Items     | x | x |
-|| Add Items                | x | x |
+|| Add Items                |  | x |
 || View/Export Sales Report |   | x |
 || Grant Admin to Users     |   | x |
 || Add Items via Database   |   | x |
