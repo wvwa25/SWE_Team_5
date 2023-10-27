@@ -80,7 +80,7 @@
   	  * Priority: Must Have
           * Estimated Effort: 0.5 Days
           *  Functional
-          *   nitialize 5 to 10 items into the inventory database. Ensure admins have the ability to add items to the database. Create a guide instructing them how to do add items, including item details such as a picture, name, price, and description.
+          *   Initialize 5 to 10 items into the inventory database. Ensure admins have the ability to add items to the database. Create a guide instructing them how to do add items, including item details such as a picture, name, price, and description.
 
      * Sales Report - T5E-7
     	* Generate Sales Report Page - T5S-15
