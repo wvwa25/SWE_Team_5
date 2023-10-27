@@ -22,7 +22,7 @@ Click [here](project/technology-selection.md) for a detailed explanation of what
 ### Gantt Chart
 Click [here](https://adkisson-swe-f23.youtrack.cloud/gantt-charts/174-7) to view our project plan Gantt Chart in YouTrack.
 
-### Video Presentation 
+### Project Plan Presentation 
 Click [here](presentations/1-project-plan-presentation.mp4) to download our project plan video presentation in mp4 format. If you have any issues playing this file, please visit this [Vimeo link](https://vimeo.com/877352593).
 
 ### Requirements
