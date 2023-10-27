@@ -76,31 +76,31 @@
           *	Add an attribute to the user data for indicate if a user is an admin. Create a guide to instruct the admin how to grant regular users admin access.
           
 
-	* Add Stock - T5S-14
-  	  * Priority: Must Have
-          * Estimated Effort: 0.5 Days
-          *  Functional
-          *   Initialize 5 to 10 items into the inventory database. Ensure admins have the ability to add items to the database. Create a guide instructing them how to do add items, including item details such as a picture, name, price, and description.
+     * Add Stock - T5S-14
+       *   Priority: Must Have
+       * Estimated Effort: 0.5 Days
+       *  Functional
+       *   Initialize 5 to 10 items into the inventory database. Ensure admins have the ability to add items to the database. Create a guide instructing them how to do add items, including item details such as a picture, name, price, and description.
 
      * Sales Report - T5E-7
     	* Generate Sales Report Page - T5S-15
-          *	Priority: Must Have
-          *  Estimated Effort: 1.25 Day
-          *	Functional
-          *	Add a "Sales Report" button to the browsing and item screens only for admin-level users. This will link to a sales report page that will display a chronological list of everything that has been purchased, along with the item details and the username/id
+       *	Priority: Must Have
+       *   Estimated Effort: 1.25 Day
+       *	Functional
+       *	Add a "Sales Report" button to the browsing and item screens only for admin-level users. This will link to a sales report page that will display a chronological list of everything that has been purchased, along with the item details and the username/id
   of the user that purchased it. Ensure that regular users cannot access this page or see the "Sales Report" button. Ensure all purchases are visible on this report.
 
-	* Add Report Export Feature - T5S-1
-   	  * Priority: Must Have
-          * Estimated Effort: 0.75 Days
-          *   Functional
-          *   Add a "Export Sales Report" button to the sales report page for admins to download a .csv file of the sales report.
+  	*  Add Report Export Feature - T5S-1
+  		*  	Priority: Must Have
+  	 	*  	Estimated Effort: 0.75 Days
+  	  	*  Functional
+  	  	*	Add a "Export Sales Report" button to the sales report page for admins to download a .csv file of the sales report.
 
   ### Version 2
 
-**Sprint V: Admin Features**
+  **Sprint V: Admin Features**
 
-* View Receipts and Grant Access - T5E-8
+   * View Receipts and Grant Access - T5E-8
      * Add Receipt Links to Sales Report - T5S-16
           *	Priority: Want to Have
           * Estimated Effort: 1 Day
@@ -115,16 +115,16 @@
           *	Add a "Admin Access" button to the browsing and item pages to direct the admin to an admin access page. A list of users will be shown, including their username/id. The admin may select any of these users and click a button
       "Grant Admin Access" to grant the selected users admin privileges. Ensure only admins are able to see this button and access this page.
       
- **Sprint VI: Receipts and Inventory Features**
+   **Sprint VI: Receipts and Inventory Features**
 
    * Integrate Receipt Email Function - T5S-12
    	  *	Priority: Want to Have
-        * 	Estimated Effort: 1 Day
+          *	Estimated Effort: 1 Day
           *	Functional
           *	Set up an automatic email service to send emails containing the order receipt to the email address given by a respective customer in the order confirmation page. Include all order details shown on the receipt page.
      
-* Item Page and Inventory UI - T5E-9
-     * Enable Multiple Pictures on Item Page - T5S-18
+    * Item Page and Inventory UI - T5E-9
+       * Enable Multiple Pictures on Item Page - T5S-18
           *	Priority: Want to Have
           * Estimated Effort: 1.5 Days
           *	Functional
