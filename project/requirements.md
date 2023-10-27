@@ -69,27 +69,32 @@
 **Sprint IV: Admin Privileges**
 
 * Admin Access and Inventory - T5E-6
-      *	Add and Grant Admin Attribute - T5S-13
+     *	Add and Grant Admin Attribute - T5S-13
           *	Priority: Must Have
           * Estimated Effort: 0.25 Days
           *	Functional
           *	Add an attribute to the user data for indicate if a user is an admin. Create a guide to instruct the admin how to grant regular users admin access.
-      *	Add Stock - T5S-14
-          *	Priority: Must Have
+          
+
+	* Add Stock - T5S-14
+  	  * Priority: Must Have
           * Estimated Effort: 0.5 Days
-          *	Functional
-          *	Initialize 5 to 10 items into the inventory database. Ensure admins have the ability to add items to the database. Create a guide instructing them how to do add items, including item details such as a picture, name, price, and description.
-* Sales Report - T5E-7
-      *	Generate Sales Report Page - T5S-15
+          *  Functional
+          *   nitialize 5 to 10 items into the inventory database. Ensure admins have the ability to add items to the database. Create a guide instructing them how to do add items, including item details such as a picture, name, price, and description.
+
+     * Sales Report - T5E-7
+    	* Generate Sales Report Page - T5S-15
           *	Priority: Must Have
-          * Estimated Effort: 1.25 Day
+          *  Estimated Effort: 1.25 Day
           *	Functional
-          *	Add a "Sales Report" button to the browsing and item screens only for admin-level users. This will link to a sales report page that will display a chronological list of everything that has been purchased, along with the item details and the username/id of the user that purchased it. Ensure that regular users cannot access this page or see the "Sales Report" button. Ensure all purchases are visible on this report.
-	     * Add Report Export Feature - T5S-16
-          *	Priority: Must Have
+          *	Add a "Sales Report" button to the browsing and item screens only for admin-level users. This will link to a sales report page that will display a chronological list of everything that has been purchased, along with the item details and the username/id
+  of the user that purchased it. Ensure that regular users cannot access this page or see the "Sales Report" button. Ensure all purchases are visible on this report.
+
+	* Add Report Export Feature - T5S-1
+   	  * Priority: Must Have
           * Estimated Effort: 0.75 Days
-          *	Functional
-          *	Add a "Export Sales Report" button to the sales report page for admins to download a .csv file of the sales report.
+          *   Functional
+          *   Add a "Export Sales Report" button to the sales report page for admins to download a .csv file of the sales report.
 
   ### Version 2
 
@@ -101,29 +106,36 @@
           * Estimated Effort: 1 Day
           *	Functional
           *	Add links in the sales report page that will allow the admin to view a respective order receipt when they click on an order number.
-    * Create Admin Access Page - T5S-17
-          *	Priority: Want to Have
-          * Estimated Effort: 1 Day
+    
+
+	* Create Admin Access Page - T5S-17
+	  *	Priority: Want to Have
+          *  Estimated Effort: 1 Day
           *	Functional
-          *	Add a "Admin Access" button to the browsing and item pages to direct the admin to an admin access page. A list of users will be shown, including their username/id. The admin may select any of these users and click a button "Grant Admin Access" to grant the selected users admin privileges. Ensure only admins are able to see this button and access this page.
+          *	Add a "Admin Access" button to the browsing and item pages to direct the admin to an admin access page. A list of users will be shown, including their username/id. The admin may select any of these users and click a button
+      "Grant Admin Access" to grant the selected users admin privileges. Ensure only admins are able to see this button and access this page.
       
  **Sprint VI: Receipts and Inventory Features**
 
-*	Integrate Receipt Email Function - T5S-12
-          *	Priority: Want to Have
-          * Estimated Effort: 1 Day
+   * Integrate Receipt Email Function - T5S-12
+   	  *	Priority: Want to Have
+        * 	Estimated Effort: 1 Day
           *	Functional
           *	Set up an automatic email service to send emails containing the order receipt to the email address given by a respective customer in the order confirmation page. Include all order details shown on the receipt page.
+     
 * Item Page and Inventory UI - T5E-9
      * Enable Multiple Pictures on Item Page - T5S-18
           *	Priority: Want to Have
           * Estimated Effort: 1.5 Days
           *	Functional
-          *	Enable multiple item pictures to be stored in the database and displayed on the item page. Enable the user to scroll through the item images by clicking a right or left arrow. Display the number of the image being viewed over number of total images (e.g. if you are viewing image one of three, you will see 1/3).
-    * Create Add Inventory Page - T5S-19
-          *	Priority: Need to Have
-          * Estimated Effort: 1.5 Days
+          *	Enable multiple item pictures to be stored in the database and displayed on the item page. Enable the user to scroll through the item images by clicking a right or left arrow. Display the number of the image being viewed
+          over number of total images (e.g. if you are viewing image one of three, you will see 1/3)
+
+	* Create Add Inventory Page - T5S-19
+	  *	Priority: Need to Have
+          *	Estimated Effort: 1.5 Days
           *	Functional
-          *	For an admin user, add a "Add Inventory" button to the browsing and item pages to direct the admin to a "Add Inventory" page. Create item fields to allow the admin to upload photos as well as add a price, item name, and item description. Ensure only admins are able to see this button and access this page.
+          *	For an admin user, add a "Add Inventory" button to the browsing and item pages to direct the admin to a "Add Inventory" page. Create item fields to allow the admin to upload photos as well as add a price, item name, and
+      		item description. Ensure only admins are able to see this button and access this page.
 
   
