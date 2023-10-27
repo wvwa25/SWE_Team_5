@@ -24,3 +24,13 @@ Click [here](https://adkisson-swe-f23.youtrack.cloud/gantt-charts/174-7) to view
 
 ### Video Presentation 
 Click [here](presentations/1-project-plan-presentation.mp4) to download our project plan video presentation in mp4 format. If you have any issues playing this file, please visit this [Vimeo link](https://vimeo.com/877352593).
+
+### Requirements
+To prepare for the design of our application, our team produced a detailed [list of requirements](project/requirements.md) to define the numerous functionalities and features we will incorporate into our product. Our requirements are defined as a sequential list of sprints, epics, and stories. Each story represents an action item we will be implementing. Our list is split into 2 versions, of which we will be implementing version 1. 
+
+Additionally, we produced a [Use Case Diagram](project/use-case-diagram.md) to show how users will interact with our application and a [Decision Table](project/decision-table.md) to define which features certain users will have access to.
+
+Please click these links above to view our work.
+
+
+
