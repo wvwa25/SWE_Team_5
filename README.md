@@ -31,7 +31,7 @@ To build our application, we will be coding in C# ASP.NET through Blazor Server.
 
 * Click [here](https://adkisson-swe-f23.youtrack.cloud/gantt-charts/174-7) to view our project plan Gantt Chart in YouTrack.
 
-**Project Plan Presentation**
+**Video Presentation**
 
 * Please visit this [Vimeo link](https://vimeo.com/877352593) to watch our video presentation on our project plan.
 
