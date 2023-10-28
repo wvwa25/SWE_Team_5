@@ -91,7 +91,7 @@
       * Link Browsing Page to Item Pages - T5S-16
           * Priority: Must Have
           * Estimated Effort: 0.25 Days
-          *	Functional
+          *	Non-Functional
           * In the browsing page, add links to send the user to the respective item page when they click on either the item name or picture.
   * Search Function - T5E-7
       * Add Search Function to Browsing Page - T5S-17
@@ -110,7 +110,7 @@
       *	Integrate Checkout Page - T5S-19
           *	Priority: Must Have
           *	Estimated Effort: 0.25 Days
-          *	Functional
+          *	Non-Functional
           *	Add a "Checkout" button to the browsing page and item page to send the user to the checkout screen. Ensure that users cannot view the checkout page if their shopping carts are empty.
       *	Add Payment Features to Checkout - T5S-20
           *	Priority: Must Have
@@ -134,7 +134,7 @@
       *	Add and Grant Admin Attribute - T5S-23
           *	Priority: Must Have
           *	Estimated Effort: 0.25 Days
-          *	Functional
+          *	Non-Functional
           *	Add an attribute to the user data to indicate if a user is an admin. Create a guide to instruct the admin how to grant regular users admin access.
       *	Add Stock - T5S-24
           *	Priority: Must Have
@@ -151,7 +151,7 @@
           *	Priority: Must Have
           *	Estimated Effort: 0.75 Days
           *	Functional
-          *	Add an "Export Sales Report" button to the sales report page for admins to download a .csv file of the sales report.
+          *	Add an "Export Sales Report" button to the sales report page so that admins can download a .csv file of the sales report.
 
 ### Version 2
 
