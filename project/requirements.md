@@ -170,18 +170,18 @@
 
 **Sprint VIII: Receipts and Inventory Features**
  * Item Page and Inventory UI - T5E-13
-      *	Integrate Receipt Email Function - T5S-29
-          *	Priority: Want to Have
-          *	Estimated Effort: 1 Day
-          *	Functional
-          *	Set up an automatic email service to send emails containing the order receipt to the email address given by the respective customer in the order confirmation page. Include all order details shown on the receipt page.
-      *	Enable Multiple Pictures on Item Page - T5S-30
-          *	Priority: Want to Have
-          *	Estimated Effort: 1.5 Days
-          *	Functional
-          *	Enable multiple item pictures to be stored in the database and displayed on the item page. Enable the user to scroll through the item images by clicking a right or left arrow. Display the number of the image being viewed over number of total images (e.g., if you are viewing image one of three, you will see 1/3)
-      *	Create Add Inventory Page - T5S-31
+      *	Create Add Inventory Page - T5S-29
           *	Priority: Need to Have
           *	Estimated Effort: 1.5 Days
           *	Functional
           *	For an admin user, add an "Add Inventory" button to the browsing and item pages to direct the admin to a "Add Inventory" page. Create item fields to allow the admin to upload photos as well as add a price, item name, and item description. Ensure only admins are able to see this button and access this page.
+      *	Integrate Receipt Email Function - T5S-30
+          *	Priority: Want to Have
+          *	Estimated Effort: 1 Day
+          *	Functional
+          *	Set up an automatic email service to send emails containing the order receipt to the email address given by the respective customer in the order confirmation page. Include all order details shown on the receipt page.
+      *	Enable Multiple Pictures on Item Page - T5S-31
+          *	Priority: Want to Have
+          *	Estimated Effort: 1.5 Days
+          *	Functional
+          *	Enable multiple item pictures to be stored in the database and displayed on the item page. Enable the user to scroll through the item images by clicking a right or left arrow. Display the number of the image being viewed over number of total images (e.g., if you are viewing image one of three, you will see 1/3)
