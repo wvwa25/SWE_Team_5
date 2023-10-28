@@ -11,5 +11,4 @@
 | | Add Items                 |   | x |
 | | View/Export Sales Report  |   | x |
 | | Grant Admin to Users      |   | x |
-| | Add Items via Database    |   | x |
-
+| | Add Inventory Items       |   | x |
