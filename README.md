@@ -38,7 +38,7 @@ To build our application, we will be coding in C# ASP.NET through Blazor Server.
 ### Requirements
 To prepare for the design of our application, our team produced a detailed [list of requirements](project/requirements.md) in markdown to define the numerous functionalities and features we will incorporate into our product. Our requirements are defined as a sequential list of sprints, epics, and stories. Each story represents an action item we will be implementing. Our list is split into 2 versions, of which we will be implementing version 1.
 
-Additionally, we produced a [Use Case Diagram](https://www.plantuml.com/plantuml/png/NP3FIWCn48VlynH3xaNijdkKhkAXu44iUX-oGmtDdv39iahntNMZbgIdoPVVDqCcEycKykGioCduI8aSaiuX7VAdPQIP9JY6IFf4HyPNuIHdK4jLI58kG0sZCxvmES4NN3g66AtHb4tmPq2SX3K9exfFOVwf-ynEVYSztDRvyvJqErqPwzfuCppZlpOsNdVjtJn-n90o7iYou0ile8gwmTeTndRGjWwVmX7t_Y_fboLXMHzNgxlo-WhMDNGrz03bZovTDQqRwXhQDBHjg8ST-t5ozXi0) on PlantUML to show how users will interact with our application and a [Decision Table](project/decision_table.md) in markdown to define which features certain users will have access to.
+Additionally, we produced a [Use Case Diagram](https://www.plantuml.com/plantuml/png/NP3FIWCn48VlynH3xaNijdkKhkAXu44iUX-oGmtDdv39iahntNMZbgIdoPVVDqCcEycKykGioCduI8aSaiuX7VAdPQIP9JY6IFf4HyPNuIHdK4jLI58kG0sZCxvmES4NN3g66AtHb4tmPq2SX3K9exfFOVwf-ynEVYSztDRvyvJqErqPwzfuCppZlpOsNdVjtJn-n90o7iYou0ile8gwmTeTndRGjWwVmX7t_Y_fboLXMHzNgxlo-WhMDNGrz03bZovTDQqRwXhQDBHjg8ST-t5ozXi0) on PlantUML to show how users will interact with our application and a [Decision Table](project/decision-table.md) in markdown to define which features certain users will have access to.
 
 Please visit these links above to view our work and watch our requirements presentation [here]().
 
