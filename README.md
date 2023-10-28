@@ -40,7 +40,7 @@ To prepare for the design of our application, our team produced a detailed [list
 
 Additionally, we produced a [Use Case Diagram](https://www.plantuml.com/plantuml/png/NP3FIWCn48VlynH3xaNijdkKhkAXu44iUX-oGmtDdv39iahntNMZbgIdoPVVDqCcEycKykGioCduI8aSaiuX7VAdPQIP9JY6IFf4HyPNuIHdK4jLI58kG0sZCxvmES4NN3g66AtHb4tmPq2SX3K9exfFOVwf-ynEVYSztDRvyvJqErqPwzfuCppZlpOsNdVjtJn-n90o7iYou0ile8gwmTeTndRGjWwVmX7t_Y_fboLXMHzNgxlo-WhMDNGrz03bZovTDQqRwXhQDBHjg8ST-t5ozXi0) on PlantUML to show how users will interact with our application and a [Decision Table](project/decision_table.md) in markdown to define which features certain users will have access to.
 
-Please click these links above to view our work and watch our requirements presentation [here]().
+Please visit these links above to view our work and watch our requirements presentation [here]().
 
 
 
