@@ -156,31 +156,36 @@
 ### Version 2
 
 **Sprint VII: Admin Features**
- * View Receipts and Grant Access - T5E-12
-      *	Add Receipt Links to Sales Report - T5S-27
+ * Admin UI - T5E-12
+      *	Create Add Inventory Page - T5S-27
+          *	Priority: Need to Have
+          *	Estimated Effort: 1.5 Days
+          *	Functional
+          *	For an admin user, add an "Add Inventory" button to the browsing and item pages to direct the admin to a "Add Inventory" page. Create item fields to allow the admin to upload photos as well as add a price, item name, and item description. Ensure only admins are able to see this button and access this page.
+      *	Add Receipt Links to Sales Report - T5S-28
           *	Priority: Want to Have
           *	Estimated Effort: 1 Day
           *	Functional
           *	Add links on the sales report page that will allow the admin to view a respective order receipt page when they click on an order number.
-      *	Create Admin Access Page - T5S-28
+      *	Create Admin Access Page - T5S-29
           *	Priority: Want to Have
           *	Estimated Effort: 1 Day
           *	Functional
           *	Add an "Admin Access" button to the browsing and item pages to direct the admin to an admin access page. A list of users will be shown, including their username/id. The admin may select any of these users and click a button "Grant Admin Access" to grant the selected users admin privileges. Ensure only admins are able to see this button and access this page.
 
-**Sprint VIII: Receipts and Inventory Features**
- * Item Page and Inventory UI - T5E-13
-      *	Create Add Inventory Page - T5S-29
+**Sprint VIII: Inventory UI and Receipts**
+ * Purchases, Item Pictures, and Emails - T5E-13
+      *	Generate Purchased Items Page - T5S-30
           *	Priority: Need to Have
           *	Estimated Effort: 1.5 Days
           *	Functional
-          *	For an admin user, add an "Add Inventory" button to the browsing and item pages to direct the admin to a "Add Inventory" page. Create item fields to allow the admin to upload photos as well as add a price, item name, and item description. Ensure only admins are able to see this button and access this page.
-      *	Integrate Receipt Email Function - T5S-30
+          *	Create a purchases page to show the user which items they've purchased. Add a button "Purchases" at the top of the browsing and item pages to link to the purchases page. Include order number, order date, itemized charges, item details (name, picture, price), and a link to the receipt. Add a button "Back" to go back to the last page.
+      *	Integrate Receipt Email Function - T5S-31
           *	Priority: Want to Have
           *	Estimated Effort: 1 Day
           *	Functional
           *	Set up an automatic email service to send emails containing the order receipt to the email address given by the respective customer in the order confirmation page. Include all order details shown on the receipt page.
-      *	Enable Multiple Pictures on Item Page - T5S-31
+      *	Enable Multiple Pictures on Item Page - T5S-32
           *	Priority: Want to Have
           *	Estimated Effort: 1.5 Days
           *	Functional
