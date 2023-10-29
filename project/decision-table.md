@@ -2,7 +2,7 @@
 |-| ---------- | :----: | :----: |
 | Condition Rows | Is admin? | No | Yes | 
 | |                           |   |   |
-| Action Rows | Self register | x |   |
+| Action Rows | Self-register | x |   |
 | | Log In                    | x | x |
 | | Browse Items              | x | x |
 | | Search Items              | x | x |
