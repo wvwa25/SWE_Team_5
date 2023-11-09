@@ -27,7 +27,7 @@
           *	Priority: Must Have
           *	Estimated Effort: 0.5 Days
           *	Non-Functional
-          *	Create mockups for the order confirmation and receipt pages. For the order confirmation page, display the items from cart in with their respective price, subtotal, 6% sales tax, and shipping cost, and grand total. Include buttons "Continue Shopping", "Go to Shopping Cart", and "Conplete Order". For the receipt page, display all itemized charges with items names and the grand total. Additionally, display the last four digits of the credit card, a shipping address, and an order number. Lastly, include a button "OK".
+          *	Create mockups for the order confirmation and receipt pages. For the order confirmation page, display the items from cart in with their respective price, subtotal, 6% sales tax, and shipping cost, and grand total. Include buttons "Continue Shopping", "Go to Shopping Cart", and "Complete Order". For the receipt page, display all itemized charges with items names and the grand total. Additionally, display the last four digits of the credit card, a shipping address, and an order number. Lastly, include a button "OK".
       *	Generate Sales Report Page Mockup – T5S-6
           *	Priority: Must Have
           *	Estimated Effort: 0.25 Days
