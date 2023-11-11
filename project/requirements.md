@@ -112,11 +112,11 @@
           *	Estimated Effort: 0.25 Days
           *	Non-Functional
           *	Add a "Checkout" button to the browsing page and item page to send the user to the checkout screen. Ensure that users cannot view the checkout page if their shopping carts are empty.
-      *	Add Payment Features to Checkout - T5S-20
+      *	Generate Payment Page - T5S-20
           *	Priority: Must Have
           * Estimated Effort: 1 Day
           *	Functional
-          *	Add a "Pay Now" button to the checkout page. This will open the payment portion of the checkout page. Add payment fields to allow the user to enter their shipping address, credit card number (including expiration MM/YY and CVV), phone number, email, and select a shipping speed. Show three shipping speed options including overnight ($29), 3-day ($19), and ground ($0).
+          *	Add a "Pay Now" button to the checkout page. This will link to the payment page in which the user will enter their payment information. Add fields to allow the user to enter their shipping address, credit card number (including expiration MM/YY and CVV), phone number, email, and select a shipping speed. Show three shipping speed options including overnight ($29), 3-day ($19), and ground ($0).
  * Order Confirmation and Receipt - T5E-9
       * Create Checkout Page - T5S-21
           * Priority: Must Have
