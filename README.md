@@ -43,6 +43,6 @@ Additionally, we produced a [Use Case Diagram](https://www.plantuml.com/plantuml
 Please visit these links above to view our work and watch our requirements presentation [here](https://vimeo.com/879068697?share=copy).
 
 ### User Interface Design
-For the first part of the design phase, we created a [mockup UI in Marvel](https://marvelapp.com/prototype/c216791) to demonstrate how our UI will look and how the application will flow. We went for something clean and familiar to users, but with enough creative flair to be interesting to look at. Syl created the D20 die artwork seen on the landing page/account creation page and got us started on a design layout. I did a little bit of prototyping in Blazor Server to provide an idea of how the actual application will look in practice, then each of us took charge of a section of the prototype and built multiple screens.
+For the first part of the design phase, we created a [mockup UI in Marvel](https://marvelapp.com/prototype/c216791) to demonstrate the application's appearance and flow. We went for something clean and familiar to users, but with enough creative flair to be interesting to look at. Syl created the D20 die artwork seen on the landing page/account creation page and got us started on a general layout. I did a little bit of prototyping in Blazor Server to provide an idea of how the actual application will look in practice, then each of us took charge of a section of the prototype and built multiple screens.
 
-The video presentation for our UI design is located [here](https://vimeo.com/user16597860).
+The video presentation demonstrating our high-fidelity UI prototype is located [here](https://vimeo.com/user16597860).
