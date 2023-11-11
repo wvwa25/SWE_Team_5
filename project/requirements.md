@@ -22,7 +22,7 @@
           *	Priority: Must Have
           *	Estimated Effort: 0.5 Days
           *	Non-Functional
-          *	Create mockups for the checkout pages in Marvel. For the checkout page, include a list of a few items from the user's shopping cart (in chronilogical order) with their respective subtotal. Include a "Remove" button next to each item, a "Continue Shopping" button, and a "Pay Now" button. Create an additional mockup for the checkout page after "Pay Now" is clicked to display text fields "Name", "Email Address", "Shipping Address", "Credit Card Number", "Expiration Date", and "CVV". Include radio buttons for three shipping speed options (3-Day for $19, Overnight for $29, and Ground for $0). Lastly, include a button "Confirm Order".
+          *	Create mockups for the checkout pages in Marvel. For the checkout page, include a list of a few items from the user's shopping cart (in chronilogical order) with their respective subtotal. Include a "Remove" button next to each item, a "Continue Shopping" button, and a "Pay Now" button. Create a payment page to be displayed after "Pay Now" is clicked. This page will display text fields "Name", "Email Address", "Shipping Address", "Credit Card Number", "Expiration Date", and "CVV". Include radio buttons for three shipping speed options (3-Day for $19, Overnight for $29, and Ground for $0). Lastly, include a button "Confirm Order".
       *	Generate Order Pages Mockups – T5S-5
           *	Priority: Must Have
           *	Estimated Effort: 0.5 Days
