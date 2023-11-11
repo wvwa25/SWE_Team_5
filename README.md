@@ -3,11 +3,15 @@
   Welcome to the Team 5 class project repository for SWE 3313, Introduction to Software Engineering.
   Our presentations, documentation, source code and artifacts will be located here and updated as the project continues.
 
-  For our application, we will build an e-commerce website using C# and ASP.NET Core to sell magical Dungeons & Dragons items.
-
-  Please visit the links below for more information about our team and our project plan and thank you for looking at our work!
+  For our application, we are building an e-commerce website with C# and ASP.NET Core Blazor to sell magical Dungeons & Dragons items.
+  We invite you to have a look at the many facets our or software engineering process as shown in the sections below. The related links will direct you to the details of our work.
+  
+  Thank you for viewing our work!
 
 ### Project Plan
+
+  We began our application-building process by flushing out the general preliminary details of what we will be making and how we will be making it, as well as defining our team roles.
+  Please visit the links below for more information about our team and our project plan.
 
 **Meet our Team**
   - [Trey Morris](project/trey_morris-résumé.md)
