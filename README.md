@@ -49,4 +49,4 @@ Please visit these links above and watch our requirements presentation [here](ht
 ### User Interface Design
 For the first part of the design phase, we created a [mockup UI in Marvel](https://marvelapp.com/prototype/c216791) to demonstrate our application's appearance and flow. We went for something clean and familiar to users, but with enough creative flair to be interesting to look at. Syl created the D20 die artwork seen on the landing page/account creation page and got us started on a general layout. I did a little bit of prototyping in Blazor Server to provide an idea of how the actual application will look in practice, then each of us took charge of a section of the prototype and built multiple screens.
 
-The video presentation demonstrating our high-fidelity UI prototype is located [here](https://vimeo.com/user16597860).
+The video presentation demonstrating our high-fidelity UI prototype is located [here](https://vimeo.com/885065514).
