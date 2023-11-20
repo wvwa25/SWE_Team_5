@@ -10,7 +10,7 @@
 ## Organization
 ## Whitespace rules
 
-# C# coding guidelines
+# C# guidelines
 ## Constants
 ## IEnumerable vs IList vs IReadOnlyList
 ## Generators vs containers
@@ -35,3 +35,5 @@
 ## The var keyword
 ## Attributes
 ## Argument Naming
+
+# CSS and HTML Guidelines
