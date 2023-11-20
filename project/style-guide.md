@@ -1,8 +1,11 @@
 # Formatting Guidelines
-
+* This part of the guide uses the Google C# style guide as displayed in-depth [here](https://google.github.io/styleguide/csharp-style.html)
+* I will go over it briefly in this guide however please proceed to the prior link if you are in need of a more in-depth summary.
 ## Naming rules
-### Code
 
+### Code
+* Names of classes, methods, enumerations, public fields, public properties, namespaces: PascalCase.
+* 
 
 ### Files
 
