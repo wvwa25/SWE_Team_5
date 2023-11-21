@@ -59,11 +59,14 @@ Developed from Google Java style, see [here](https://google.github.io/styleguide
 ## Structs and classes:
 ## Lambdas vs named methods
 ## Field initializers
+* Field initializers are generally encouraged.
 ## Extension methods
 ## ref and out
 ## LINQ
 ## Array vs List
 ## Folders and file locations
+* Be consistent with the project.
+* Prefer a flat structure where possible.
 ## Use of tuple as a return type
 ## String interpolation vs String.Format() vs String.Concat vs operator+
 ## using
