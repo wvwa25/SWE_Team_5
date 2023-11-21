@@ -74,6 +74,8 @@ The technical aspects of our design were flushed out in this phase, in which we 
 
 **Entity Relationship Diagram**
 
+- Click [here](project/entity-relationship-diagram.md) to view our Entity Relationship Diagram and data examples.
+
 **Seed Data and Data Storage Plan**
 
 **Coding Style Guide**
