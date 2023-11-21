@@ -1,0 +1,99 @@
+﻿@page "/call-web-api"
+@using System.Text.Json
+@using System.Text.Json.Serialization
+@using CsvHelper;
+@using System.IO;
+@using ServerAPI.Data;
+@using System.Globalization;
+@inject NavigationManager NavManager
+@inject IHttpClientFactory ClientFactory
+@inject IJSRuntime JSRuntime;
+
+<h1>Call web API from a Blazor Server Razor component</h1>
+
+@if (getBranchesError || items is null)
+{
+    <p>Unable to get branches from GitHub. Please try again later.</p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Password</th>
+                <th>Role</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in items)
+            {
+                <tr>
+                    <td>@item.ID</td>
+                    <td>@item.Name</td>
+                    <td>@item.Email</td>
+                    <td>@item.Password</td>
+                    <td>@item.Role</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+<button class="btn btn-primary" @onclick="GetCSV">Generate CSV</button>
+@if(canDownload)
+{
+    <br />
+    <br />
+    <button class="btn btn-primary" @onclick="DownloadFile">Download CSV</button>
+}
+
+@code {
+    private IEnumerable<ItemShop>? items = Array.Empty<ItemShop>();
+    private bool getBranchesError;
+    private bool shouldRender;
+    private bool canDownload = false;
+    protected override bool ShouldRender() => shouldRender;
+
+    protected override async Task OnInitializedAsync()
+    {
+        var request = new HttpRequestMessage(HttpMethod.Get,"https://my-api-test.azurewebsites.net/api/get-list?code=_LjDB4O81c3uwiPBV04TpFBvr3EZt0PPUJn-cawlDjxEAzFulyXHwg==");
+
+        var client = ClientFactory.CreateClient();
+
+        var response = await client.SendAsync(request);
+
+        if (response.IsSuccessStatusCode)
+        {
+            using var responseStream = await response.Content.ReadAsStreamAsync();
+            items = await JsonSerializer.DeserializeAsync
+                <IEnumerable<ItemShop>>(responseStream);
+        }
+        else
+        {
+            getBranchesError = true;
+        }
+        shouldRender = true;
+    }
+
+    private async Task DownloadFile()
+    {
+        var fileName = "exported_Data.csv";
+        var fileURL = "https://localhost:7087/exported_Data.csv";
+        await JSRuntime.InvokeVoidAsync("triggerFileDownload", fileName, fileURL);
+    }
+
+    public void GetCSV()
+    {
+        var csvPath = Path.Combine("wwwroot", $"exported_Data.csv");
+        using (var streamWriter = new StreamWriter(csvPath))
+        {
+            using (var csvWriter = new CsvWriter(streamWriter, CultureInfo.InvariantCulture))
+            {
+                csvWriter.WriteRecords(items);
+                canDownload = true;
+            }
+        }
+    }
+}

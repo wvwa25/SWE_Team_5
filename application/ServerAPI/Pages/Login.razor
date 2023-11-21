@@ -1,0 +1,99 @@
+﻿<h3>Login</h3>
+@page "/login"
+@using MudBlazor
+@using ServerAPI.Data;
+@using System.Text.Json.Serialization
+@using System.Net.Http;
+@using System.Text;
+@using System.Text.Json;
+@inject NavigationManager NavManager
+@inject HttpClient HttpClient
+@inject IHttpClientFactory ClientFactory
+
+<h4>@Status</h4>
+@if (isRegistered)
+{
+	<h4>Welcome @userName</h4>
+	<br />
+	<br />
+}
+<body>
+<EditForm Model=@registerUser OnSubmit=@FormSubmitted>
+	<MudTextField @bind-Value="userName" Label="Username" Variant="Variant.Text"></MudTextField>
+	<MudTextField @bind-Value="password" Label="Password" Variant="Variant.Text"></MudTextField>
+	<br />
+	<input type="submit" value="Submit" class="btn btn-primary" />
+</EditForm>
+
+</body>
+<br />
+<NavLink class="btn btn-primary" href="/register">Register</NavLink>
+
+@code {
+
+
+	private static readonly HttpClient client = new HttpClient();
+	string userName;
+	string password;
+	string Status = "Not submitted";
+	Boolean isRegistered = false;
+	NewUser registerUser = new NewUser();
+
+	private IEnumerable<ItemShop>? items = Array.Empty<ItemShop>();
+	private bool getBranchesError;
+	private bool shouldRender;
+	private bool canDownload = false;
+	protected override bool ShouldRender() => shouldRender;
+
+	//GET Method Call, this is to get the current users in the database.
+	protected override async Task OnInitializedAsync()
+	{
+		var request = new HttpRequestMessage(HttpMethod.Get, "https://my-api-test.azurewebsites.net/api/get-list?code=_LjDB4O81c3uwiPBV04TpFBvr3EZt0PPUJn-cawlDjxEAzFulyXHwg==");
+
+		var client = ClientFactory.CreateClient();
+
+		var response = await client.SendAsync(request);
+
+		if (response.IsSuccessStatusCode)
+		{
+			using var responseStream = await response.Content.ReadAsStreamAsync();
+			items = await JsonSerializer.DeserializeAsync
+				<IEnumerable<ItemShop>>(responseStream);
+		}
+		else
+		{
+			getBranchesError = true;
+		}
+		shouldRender = true;
+
+	}
+
+	void FormSubmitted()
+	{
+
+		if(String.IsNullOrEmpty(userName) || String.IsNullOrEmpty(password))
+		{
+			Status = "Information Left Blank";
+		}
+		else
+		{
+			foreach (var item in items)
+			{
+				if (item.Name.Equals(userName))
+				{
+
+					if (item.Password.Equals(password))
+					{
+						Status = " ";
+						isRegistered = true;
+					}
+					else
+					{
+						Status = "Incorrect Password";
+					}
+				}
+			}
+		}
+		
+	}
+}

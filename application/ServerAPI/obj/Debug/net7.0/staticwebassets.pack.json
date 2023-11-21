@@ -1,0 +1,81 @@
+{
+  "Files": [
+    {
+      "Id": "E:\\Trey\\Coding\\Web-DOTNET\\SWE_Team_5\\application\\ServerAPI\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\ServerAPI.bundle.scp.css",
+      "PackagePath": "staticwebassets\\ServerAPI.bundle.scp.css"
+    },
+    {
+      "Id": "E:\\Trey\\Coding\\Web-DOTNET\\SWE_Team_5\\application\\ServerAPI\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "E:\\Trey\\Coding\\Web-DOTNET\\SWE_Team_5\\application\\ServerAPI\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "E:\\Trey\\Coding\\Web-DOTNET\\SWE_Team_5\\application\\ServerAPI\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "PackagePath": "staticwebassets\\css\\open-iconic"
+    },
+    {
+      "Id": "E:\\Trey\\Coding\\Web-DOTNET\\SWE_Team_5\\application\\ServerAPI\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "PackagePath": "staticwebassets\\css\\open-iconic"
+    },
+    {
+      "Id": "E:\\Trey\\Coding\\Web-DOTNET\\SWE_Team_5\\application\\ServerAPI\\wwwroot\\css\\open-iconic\\README.md",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\README.md"
+    },
+    {
+      "Id": "E:\\Trey\\Coding\\Web-DOTNET\\SWE_Team_5\\application\\ServerAPI\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
+    },
+    {
+      "Id": "E:\\Trey\\Coding\\Web-DOTNET\\SWE_Team_5\\application\\ServerAPI\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
+    },
+    {
+      "Id": "E:\\Trey\\Coding\\Web-DOTNET\\SWE_Team_5\\application\\ServerAPI\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
+    },
+    {
+      "Id": "E:\\Trey\\Coding\\Web-DOTNET\\SWE_Team_5\\application\\ServerAPI\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
+    },
+    {
+      "Id": "E:\\Trey\\Coding\\Web-DOTNET\\SWE_Team_5\\application\\ServerAPI\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
+    },
+    {
+      "Id": "E:\\Trey\\Coding\\Web-DOTNET\\SWE_Team_5\\application\\ServerAPI\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
+    },
+    {
+      "Id": "E:\\Trey\\Coding\\Web-DOTNET\\SWE_Team_5\\application\\ServerAPI\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "E:\\Trey\\Coding\\Web-DOTNET\\SWE_Team_5\\application\\ServerAPI\\wwwroot\\exported_Data.csv",
+      "PackagePath": "staticwebassets\\exported_Data.csv"
+    },
+    {
+      "Id": "E:\\Trey\\Coding\\Web-DOTNET\\SWE_Team_5\\application\\ServerAPI\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.ServerAPI.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.ServerAPI.props",
+      "PackagePath": "build\\ServerAPI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.ServerAPI.props",
+      "PackagePath": "buildMultiTargeting\\ServerAPI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.ServerAPI.props",
+      "PackagePath": "buildTransitive\\ServerAPI.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
