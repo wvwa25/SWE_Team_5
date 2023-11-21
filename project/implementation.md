@@ -1,6 +1,4 @@
-# Implementation
-
-## Implementation Language and FrameWorks
+# Implementation Language and Frameworks
 - For our project, we are building our product in C# with Blazor Server. Blazor Server uses a component to build Single Page Application (SPA) called Razor components.
 via Microsoft's website, `` Components are implemented using a combination of C# and HTML markup in Razor component files with the .razor file extension. ``
  With Blazor Server, we are also able to use different frameworks for UI
