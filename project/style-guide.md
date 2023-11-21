@@ -1,8 +1,9 @@
+# Style Guide
+This Guide is built from existing google style guides.
+I will go over parts of them in this guide however please proceed to the given links if you are in need of a more in-depth summary.
 # Formatting Guidelines
-* This part of the guide uses the Google C# style guide as displayed in-depth [here](https://google.github.io/styleguide/csharp-style.html)
-* I will go over it briefly in this guide however please proceed to the prior link if you are in need of a more in-depth summary.
+* This part of the guide, along with the C# guidelines below, uses the Google C# style guide, see [here](https://google.github.io/styleguide/csharp-style.html)
 ## Naming rules
-
 ### Code
 * Names of classes, methods, enumerations, public fields, public properties, namespaces are in PascalCase.
 * Names of local variables, parameters: camelCase.
@@ -10,7 +11,6 @@
 * Naming convention is unaffected by modifiers such as const, static, readonly, etc.
 * For casing, a “word” is anything written without internal spaces, including acronyms. For example, BrentsAdhd instead of BrentsADHD.
 * The names of interfaces must start with I, e.g. IInterface.
-  
 ### Files
 * Filenames and directory names are PascalCase, e.g. MyFile.cs.
 * Where possible the file name should be the same as the name of the main class in the file, e.g. MyClass.cs.
@@ -51,6 +51,7 @@ Developed from Google Java style, see [here](https://google.github.io/styleguide
   * Line breaks with braces (e.g. list initializers, lambdas, object initializers, etc) do not count as continuations.
   * For function definitions and calls, if the arguments do not all fit on one line they should be broken up onto multiple lines, with each subsequent line aligned with the first argument. If there is not enough room for this, arguments may instead be placed on subsequent lines with a four space indent. The code example below illustrates this.
 # C# guidelines
+
 ## Constants
 * Variables and fields that can be made const should always be made const.
 * If const isn’t possible, readonly can be a suitable alternative.
@@ -98,10 +99,9 @@ When the meaning of a function argument is nonobvious, consider one of the follo
 * Consider using Named Arguments to clarify argument meanings at the call site.
 * For functions that have several configuration options, consider defining a single class or struct to hold all the options and pass an instance of that. This approach has several advantages. Options are referenced by name at the call site, which clarifies their meaning. It also reduces function argument count, which makes function calls easier to read and write. As an added benefit, call sites don’t need to be changed when another option is added.
 # CSS and HTML Guidelines
-## 1 Background
-## 2 General
-### 2.1 General Style Rules
-#### 2.1.1 Protocol
+Derived from the Google HTML/CSS Style Guide, see [here](https://google.github.io/styleguide/htmlcssguide.html)
+## General
+### Protocol
 Use HTTPS for embedded resources where possible.
 
 Always use HTTPS (https:) for images and other media files, style sheets, and scripts, unless the respective files are not available over HTTPS.
