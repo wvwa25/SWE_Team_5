@@ -69,6 +69,10 @@ Developed from Google Java style, see [here](https://google.github.io/styleguide
 ## using
 ## Object Initializer syntax
 ## Namespace naming
+* In general, namespaces should be no more than 2 levels deep.
+* Don’t force file/folder layout to match namespaces.
+* For shared library/module code, use namespaces. For leaf ‘application’ code, such as unity_app, namespaces are not necessary.
+* New top-level namespace names must be globally unique and recognizable.
 ## Default values/null returns for structs
 ## Removing from containers while iterating
 ## Calling delegates
