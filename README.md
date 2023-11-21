@@ -8,7 +8,7 @@
   
   Thank you for viewing our work!
 
-### Project Plan
+## Project Plan
 
   We began our application-building process by flushing out the general preliminary details of what we will be making and how we will be making it, as well as defining our team roles.
   Please visit the links below for more information about our team and our project plan.
@@ -39,7 +39,7 @@
 
 - All of our video presentations will be hosted on Vimeo. Please visit this [link](https://vimeo.com/877352593) to watch our project plan presentation.
 
-### Requirements
+## Requirements
 
 **Requirements List**
 
@@ -54,7 +54,7 @@ To prepare for the design of our application, our team produced a detailed [list
 
 - Please visit these links above and watch our requirements presentation [here](https://vimeo.com/879068697?share=copy).
 
-### User Interface Design
+## User Interface Design
 To begin our application design, we determined how the user interface will look and flow. Our deliverables for this phase were a UI prototype and a video presentation.
 
 **UI Prototype**
@@ -65,7 +65,7 @@ To begin our application design, we determined how the user interface will look 
 
 - The video presentation demonstrating our high-fidelity UI prototype is located [here](https://vimeo.com/885065514).
 
-### Technical Design
+## Technical Design
 The technical aspects of our design were flushed out in this phase, in which we created several documents demonstrating different parts of the application's backend structure.
 
 **Languages and Frameworks**
