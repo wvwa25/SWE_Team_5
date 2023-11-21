@@ -94,5 +94,12 @@ When the meaning of a function argument is nonobvious, consider one of the follo
 # CSS and HTML Guidelines
 ## 1 Background
 ## 2 General
+### 2.1 General Style Rules
+#### 2.1.1 Protocol
+Use HTTPS for embedded resources where possible.
+
+Always use HTTPS (https:) for images and other media files, style sheets, and scripts, unless the respective files are not available over HTTPS.
+### 2.2 General Formatting Rules
+### 2.3 General Meta Rules
 ## 3 HTML
 ## 4 CSS
