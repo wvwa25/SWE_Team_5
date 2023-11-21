@@ -9,11 +9,11 @@
 @inject IHttpClientFactory ClientFactory
 @inject IJSRuntime JSRuntime;
 
-<h1>Call web API from a Blazor Server Razor component</h1>
+<h1>Generate Sales Report</h1>
 
 @if (getBranchesError || items is null)
 {
-    <p>Unable to get branches from GitHub. Please try again later.</p>
+    <p>Unable to get branches from Database. Please try again later.</p>
 }
 else
 {
