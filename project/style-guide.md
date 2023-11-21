@@ -52,8 +52,9 @@ Developed from Google Java style, see [here](https://google.github.io/styleguide
   * For function definitions and calls, if the arguments do not all fit on one line they should be broken up onto multiple lines, with each subsequent line aligned with the first argument. If there is not enough room for this, arguments may instead be placed on subsequent lines with a four space indent. The code example below illustrates this.
 # C# guidelines
 ## Constants
-## IEnumerable vs IList vs IReadOnlyList
-## Generators vs containers
+* Variables and fields that can be made const should always be made const.
+* If const isn’t possible, readonly can be a suitable alternative.
+* Prefer named constants to magic numbers.
 ## Property styles
 ## Expression body syntax
 ## Structs and classes:
@@ -61,15 +62,12 @@ Developed from Google Java style, see [here](https://google.github.io/styleguide
 ## Field initializers
 * Field initializers are generally encouraged.
 ## Extension methods
-## ref and out
 ## LINQ
 ## Array vs List
 ## Folders and file locations
 * Be consistent with the project.
 * Prefer a flat structure where possible.
-## Use of tuple as a return type
 ## String interpolation vs String.Format() vs String.Concat vs operator+
-## using
 ## Object Initializer syntax
 ## Namespace naming
 * In general, namespaces should be no more than 2 levels deep.
@@ -77,9 +75,17 @@ Developed from Google Java style, see [here](https://google.github.io/styleguide
 * For shared library/module code, use namespaces. For leaf ‘application’ code, such as unity_app, namespaces are not necessary.
 * New top-level namespace names must be globally unique and recognizable.
 ## Default values/null returns for structs
-## Removing from containers while iterating
-## Calling delegates
 ## The var keyword
+* Use of var is encouraged if it aids readability by avoiding type names that are noisy, obvious, or unimportant.
+* Encouraged:
+
+  * When the type is obvious - e.g. var apple = new Apple();, or var request = Factory.Create<HttpRequest>();
+  * For transient variables that are only passed directly to other methods - e.g. var item = GetItem(); ProcessItem(item);
+* Discouraged:
+
+  * When working with basic types - e.g. var success = true;
+  * When working with compiler-resolved built-in numeric types - e.g. var number = 12 * ReturnsFloat();
+  * When users would clearly benefit from knowing the type - e.g. var listOfItems = GetList();
 ## Attributes
 ## Argument Naming
 Derived from the Google C++ style guide, see [here](https://google.github.io/styleguide/cppguide.html)
