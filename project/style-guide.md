@@ -1,8 +1,17 @@
 # Style Guide
 This Guide is built from existing google style guides.
-I will go over parts of them in this guide however please proceed to the given links if you are in need of a more in-depth summary.
+I will go over parts of them in this guide, however please proceed to the following links if you are in need of a more in-depth summary:
+
+* See [here](https://google.github.io/styleguide/csharp-style.html) for the Google C# style guide
+* See [here](https://google.github.io/styleguide/htmlcssguide.html) for the Google HTML/CSS Style Guide
 # Formatting Guidelines
-* This part of the guide, along with the C# guidelines below, uses the Google C# style guide, see [here](https://google.github.io/styleguide/csharp-style.html)
+This part of the guide, along with the C# guidelines below, 
+## Comments
+Explain code as needed, where possible.
+
+Use comments to explain code: What does it cover, what purpose does it serve, why is respective solution used or preferred?
+
+(This item is optional as it is not deemed a realistic expectation to always demand fully documented code. Mileage may vary heavily and depends on the project’s complexity.)
 ## Naming rules
 ### Code
 * Names of classes, methods, enumerations, public fields, public properties, namespaces are in PascalCase.
@@ -35,7 +44,6 @@ I will go over parts of them in this guide however please proceed to the given l
   * Where possible, group interface implementations together.
 
 ## Whitespace rules
-Developed from Google Java style, see [here](https://google.github.io/styleguide/javaguide.html)
 * A maximum of one statement per line.
 * A maximum of one assignment per statement.
 * Indentation of 2 spaces, no tabs.
@@ -89,7 +97,6 @@ Developed from Google Java style, see [here](https://google.github.io/styleguide
   * When working with compiler-resolved built-in numeric types - e.g. var number = 12 * ReturnsFloat();
   * When users would clearly benefit from knowing the type - e.g. var listOfItems = GetList();
 ## Argument Naming
-Derived from the Google C++ style guide, see [here](https://google.github.io/styleguide/cppguide.html)
 
 When the meaning of a function argument is nonobvious, consider one of the following remedies:
 
@@ -99,13 +106,26 @@ When the meaning of a function argument is nonobvious, consider one of the follo
 * Consider using Named Arguments to clarify argument meanings at the call site.
 * For functions that have several configuration options, consider defining a single class or struct to hold all the options and pass an instance of that. This approach has several advantages. Options are referenced by name at the call site, which clarifies their meaning. It also reduces function argument count, which makes function calls easier to read and write. As an added benefit, call sites don’t need to be changed when another option is added.
 # CSS and HTML Guidelines
-Derived from the Google HTML/CSS Style Guide, see [here](https://google.github.io/styleguide/htmlcssguide.html)
 ## General
 ### Protocol
 Use HTTPS for embedded resources where possible.
 
 Always use HTTPS (https:) for images and other media files, style sheets, and scripts, unless the respective files are not available over HTTPS.
 ### 2.2 General Formatting Rules
-### 2.3 General Meta Rules
+#### Capitalization
+Use only lowercase.
+
+All code has to be lowercase: This applies to HTML element names, attributes, attribute values (unless text/CDATA), CSS selectors, properties, and property values (with the exception of strings).
+#### Trailing Whitespace
+Remove trailing white spaces.
+
+Trailing white spaces are unnecessary and can complicate diffs.
 ## 3 HTML
+### HTML Style Rules
+#### Document type
+Use HTML5.
+
+HTML5 (HTML syntax) is preferred for all HTML documents: <!DOCTYPE html>.
+
+(It’s recommended to use HTML, as text/html. Do not use XHTML. XHTML, as application/xhtml+xml, lacks both browser and infrastructure support and offers less room for optimization than HTML.)
 ## 4 CSS
