@@ -75,7 +75,15 @@ Developed from Google Java style, see [here](https://google.github.io/styleguide
 ## The var keyword
 ## Attributes
 ## Argument Naming
-\
+Derived from the Google C++ style guide, see [here](https://google.github.io/styleguide/cppguide.html)
+
+When the meaning of a function argument is nonobvious, consider one of the following remedies:
+
+* If the argument is a literal constant, and the same constant is used in multiple function calls in a way that tacitly assumes they’re the same, use a named constant to make that constraint explicit, and to guarantee that it holds.
+* Consider changing the function signature to replace a bool argument with an enum argument. This will make the argument values self-describing.
+* Replace large or complex nested expressions with named variables.
+* Consider using Named Arguments to clarify argument meanings at the call site.
+* For functions that have several configuration options, consider defining a single class or struct to hold all the options and pass an instance of that. This approach has several advantages. Options are referenced by name at the call site, which clarifies their meaning. It also reduces function argument count, which makes function calls easier to read and write. As an added benefit, call sites don’t need to be changed when another option is added.
 # CSS and HTML Guidelines
 ## 1 Background
 ## 2 General
