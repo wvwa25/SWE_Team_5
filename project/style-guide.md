@@ -55,26 +55,27 @@ Developed from Google Java style, see [here](https://google.github.io/styleguide
 * Variables and fields that can be made const should always be made const.
 * If const isn’t possible, readonly can be a suitable alternative.
 * Prefer named constants to magic numbers.
-## Property styles
-## Expression body syntax
-## Structs and classes:
 ## Lambdas vs named methods
+* If a lambda is non-trivial (e.g. more than a couple of statements, excluding declarations), or is reused in multiple places, it should probably be a named method.
 ## Field initializers
 * Field initializers are generally encouraged.
-## Extension methods
-## LINQ
 ## Array vs List
+* In general, prefer List<> over arrays for public variables, properties, and return types.
+* Prefer List<> when the size of the container can change.
+* Prefer array when the size of the container is fixed and known at construction time.
+* Prefer array for multidimensional arrays.
+* Note:
+  * array and List<> both represent linear, contiguous containers.
+  * Similar to C++ arrays vs std::vector, arrays are of fixed capacity, whereas List<> can be added to.
+  * In some cases arrays are more performant, but in general List<> is more flexible.
 ## Folders and file locations
 * Be consistent with the project.
 * Prefer a flat structure where possible.
-## String interpolation vs String.Format() vs String.Concat vs operator+
-## Object Initializer syntax
 ## Namespace naming
 * In general, namespaces should be no more than 2 levels deep.
 * Don’t force file/folder layout to match namespaces.
 * For shared library/module code, use namespaces. For leaf ‘application’ code, such as unity_app, namespaces are not necessary.
 * New top-level namespace names must be globally unique and recognizable.
-## Default values/null returns for structs
 ## The var keyword
 * Use of var is encouraged if it aids readability by avoiding type names that are noisy, obvious, or unimportant.
 * Encouraged:
@@ -86,7 +87,6 @@ Developed from Google Java style, see [here](https://google.github.io/styleguide
   * When working with basic types - e.g. var success = true;
   * When working with compiler-resolved built-in numeric types - e.g. var number = 12 * ReturnsFloat();
   * When users would clearly benefit from knowing the type - e.g. var listOfItems = GetList();
-## Attributes
 ## Argument Naming
 Derived from the Google C++ style guide, see [here](https://google.github.io/styleguide/cppguide.html)
 
