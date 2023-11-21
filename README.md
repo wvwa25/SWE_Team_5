@@ -80,6 +80,8 @@ The technical aspects of our design were flushed out in this phase, in which we 
 
 **Coding Style Guide**
 
+- As a basis for our coding style, we are using Google's C# coding guidelines. Our style guide is shown in detail [here](project/style-guide.md).
+
 **Video Presentation**
 
 - Click [here]() to visit the link for our technical design presentation.
