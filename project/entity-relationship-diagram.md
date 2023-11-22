@@ -4,7 +4,7 @@
 
 ## Field Descriptions
 
-![](/project/assets/field-descriptions-1.png)
-![](/project/assets/field-descriptions-2.png)
+![](/project/assets/field-descriptions_1.png)
+![](/project/assets/field-descriptions_2.png)
 
 ## Example Data
