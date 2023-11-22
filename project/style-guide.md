@@ -135,5 +135,40 @@
    Use HTML according to its purpose.
 
    Use elements for what they have been created for. For example, use heading elements for headings, p elements for paragraphs, h elements for headings, etc.
-
+  ### Multimedia Fallback
+  ### Separation of Concerns
+  ### Entity References
+  ### Optional Tags
+  ### ```type``` Attributes
+  ### ```id``` Attributes
+ ## Html Formatting Rules
+  ### General Formatting
+  ### HTML Line-Wrapping
+  ### HTML Quotation Marks
 # 4 CSS
+ ## CSS Style Rules
+  ### CSS Validity
+   Use valid CSS where possible.
+
+   Unless dealing with CSS validator bugs or requiring proprietary syntax, use valid CSS code.
+  ### 
+  ### 
+  ### 
+  ### 
+  ### 
+  ### 
+  ### 
+  ### 
+  ### 
+  ### 
+  ### 
+  ### 
+ ##
+  ###
+  ###
+  ###
+  ###
+  ###
+  ###
+  ###
+  ###
