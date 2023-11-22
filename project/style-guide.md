@@ -218,19 +218,40 @@
   ### 0 and Units
    Omit unit specification after ```0``` values, unless required.
   ### Leading 0s
+   Always put ```0```s in front of values or lengths between -1 and 1.
   ### Hexadecimal Notation
-  ### Important Declarations
+   Use 3 character hexadecimal notation where possible.
   ### Hacks
+   Avoid user agent detection as well as CSS “hacks”—try a different approach first.
  ## CSS Formatting Rules
   ### Declaration Order
+   Sort declarations consistently within a project. In the absence of tooling to automate and enforce a consistent sort order, consider putting declarations in alphabetical order in order to achieve consistent code in a way that is easy to learn, remember, and manually maintain.
+   
+   Ignore vendor-specific prefixes for sorting purposes. However, multiple vendor-specific prefixes for a certain CSS property should be kept sorted (e.g. -moz prefix comes before -webkit).
   ### Block Content Indentation
+   Indent all block content.
   ### Declaration Stops
+   End every declaration with a semicolon for consistency and extensibility reasons.
   ### Property Name Stops
+   Always use a single space between property and value (but no space between property and colon) for consistency reasons.
   ### Declaration Block Separation
+   Always use a single space between the last selector and the opening brace that begins the declaration block.
+
+   The opening brace should be on the same line as the last selector in a given rule.
   ### Selector and Declaration Separation
+   Always start a new line for each selector and declaration.
   ### Rule Separation
+   Always put a blank line (two line breaks) between rules.
   ### CSS Quotation Marks
+   Use single (```''```) rather than double (```""```) quotation marks for attribute selectors and property values.
+
+   Do not use quotation marks in URL values (```url()```).
+
+   Exception: If you do need to use the ```@charset``` rule, use double quotation marks—single quotation marks are not permitted.
  ## CSS Meta Rules
   ### Section Comments
+   Group sections by a section comment (optional).
+
+   If possible, group style sheet sections together by using comments. Separate sections with new lines.
 # Be Consistant
  If you are editing, take some time to analyse the code surrounding you to determine it's style, then mirror it as you best you can.
