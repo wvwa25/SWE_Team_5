@@ -4,6 +4,6 @@
 
 ## Field Descriptions
 
-![](project/assets/field-descriptions-1.png)
+![](/project/assets/field-descriptions-1.png)
 
 ## Example Data
