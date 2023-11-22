@@ -156,12 +156,35 @@
 
    The only exceptions apply to characters with special meaning in HTML (like ```<``` and ```&```) as well as control or “invisible” characters (like no-break spaces).
   ### Optional Tags
+   Omit optional tags (optional).
+
+   For file size optimization and scannability purposes, consider omitting optional tags. The [HTML5 specification](https://html.spec.whatwg.org/multipage/syntax.html#syntax-tag-omission) defines what tags can be omitted.
+
+   (This approach may require a grace period to be established as a wider guideline as it’s significantly different from what web developers are typically taught. For consistency and simplicity reasons it’s best served omitting all optional tags, not just a selection.)
   ### ```type``` Attributes
+   Omit ```type``` attributes for style sheets and scripts.
+
+   Do not use ```type``` attributes for style sheets (unless not using CSS) and scripts (unless not using JavaScript).
+
+   Specifying ```type``` attributes in these contexts is not necessary as HTML5 implies ```text/css``` and ```text/javascript``` as defaults. This can be safely done even for older browsers.
   ### ```id``` Attributes
+   Avoid unnecessary ```id``` attributes.
+
+   Prefer ```class``` attributes for styling and ```data``` attributes for scripting.
+   
+   Where ```id``` attributes are strictly required, always include a hyphen in the value to ensure it does not match the JavaScript identifier syntax, e.g. use ```user-profile``` rather than just ```profile``` or ```userProfile```.
  ## Html Formatting Rules
   ### General Formatting
-  ### HTML Line-Wrapping
+   Use a new line for every block, list, or table element, and indent every such child element.
+
+   Independent of the styling of an element (as CSS allows elements to assume a different role per ```display``` property), put every block, list, or table element on a new line.
+
+   Also, indent them if they are child elements of a block, list, or table element.
+   
   ### HTML Quotation Marks
+   When quoting attributes values, use double quotation marks.
+
+   Use double (```""```) rather than single quotation marks (```''```) around attribute values.
 # 4 CSS
  ## CSS Style Rules
   ### CSS Validity
@@ -169,13 +192,31 @@
 
    Unless dealing with CSS validator bugs or requiring proprietary syntax, use valid CSS code.
   ### Class Naming
+   Use meaningful or generic class names.
+
+   Instead of presentational or cryptic names, always use class names that reflect the purpose of the element in question, or that are otherwise generic.
+
+   Names that are specific and reflect the purpose of the element should be preferred as these are most understandable and the least likely to change.
   ### Class Name Style
+   Use class names that are as short as possible but as long as necessary.
+
+   Try to convey what a class is about while being as brief as possible.
   ### Class Name Delimiters
-  ### Prefixes
+   Separate words in class names by a hyphen.
   ### Type Selectors
+   Avoid qualifying class names with type selectors.
+
+   Unless necessary (for example with helper classes), do not use element names in conjunction with classes.
   ### ID Selectors
+   Avoid ID selectors.
+
+   ID attributes are expected to be unique across an entire page, which is difficult to guarantee when a page contains many components worked on by many different engineers. Class selectors should be preferred in all situations.
   ### Shorthand Properties
+   Use shorthand properties where possible.
+
+   CSS offers a variety of shorthand properties (like ```font```) that should be used whenever possible, even in cases where only one value is explicitly set.
   ### 0 and Units
+   Omit unit specification after ```0``` values, unless required.
   ### Leading 0s
   ### Hexadecimal Notation
   ### Important Declarations
