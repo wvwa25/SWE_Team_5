@@ -6,6 +6,5 @@
 
 ![](/project/assets/field-descriptions-1.png)
 ![](/project/assets/field-descriptions-2.png)
-![](/project/assets/field-descriptions-3.png)
 
 ## Example Data
