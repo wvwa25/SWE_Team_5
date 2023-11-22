@@ -61,41 +61,41 @@
 # C# guidelines
 
  ## Constants
-  * Variables and fields that can be made const should always be made const.
-  * If const isn’t possible, readonly can be a suitable alternative.
+  * Variables and fields that can be made ```const``` should always be made ```const```.
+  * If ```const``` isn’t possible, ```readonly``` can be a suitable alternative.
   * Prefer named constants to magic numbers.
  ## Lambdas vs named methods
   * If a lambda is non-trivial (e.g. more than a couple of statements, excluding declarations), or is reused in multiple places, it should probably be a named method.
  ## Field initializers
   * Field initializers are generally encouraged.
  ## Array vs List
-  * In general, prefer List<> over arrays for public variables, properties, and return types.
-  * Prefer List<> when the size of the container can change.
-  * Prefer array when the size of the container is fixed and known at construction time.
-  * Prefer array for multidimensional arrays.
+  * In general, prefer ```List<>``` over arrays for public variables, properties, and return types.
+  * Prefer ```List<>``` when the size of the container can change.
+  * Prefer arrays when the size of the container is fixed and known at construction time.
+  * Prefer arrays for multidimensional arrays.
   * Note:
-    * array and List<> both represent linear, contiguous containers.
-    * Similar to C++ arrays vs std::vector, arrays are of fixed capacity, whereas List<> can be added to.
-    * In some cases arrays are more performant, but in general List<> is more flexible.
+    * array and ```List<>``` both represent linear, contiguous containers.
+    * Similar to C++ arrays vs ```std::vector```, arrays are of fixed capacity, whereas ```List<>``` can be added to.
+    * In some cases arrays are more performant, but in general ```List<>``` is more flexible.
  ## Folders and file locations
   * Be consistent with the project.
   * Prefer a flat structure where possible.
  ## Namespace naming
   * In general, namespaces should be no more than 2 levels deep.
   * Don’t force file/folder layout to match namespaces.
-  * For shared library/module code, use namespaces. For leaf ‘application’ code, such as unity_app, namespaces are not necessary.
+  * For shared library/module code, use namespaces. For leaf ‘application’ code, such as ```unity_app```, namespaces are not necessary.
   * New top-level namespace names must be globally unique and recognizable.
  ## The var keyword
-  * Use of var is encouraged if it aids readability by avoiding type names that are noisy, obvious, or unimportant.
+  * Use of ```var``` is encouraged if it aids readability by avoiding type names that are noisy, obvious, or unimportant.
   * Encouraged:
 
-    * When the type is obvious - e.g. var apple = new Apple();, or var request = Factory.Create<HttpRequest>();
-    * For transient variables that are only passed directly to other methods - e.g. var item = GetItem(); ProcessItem(item);
+    * When the type is obvious - e.g. ```var apple = new Apple();```, or ```var request = Factory.Create<HttpRequest>();```
+    * For transient variables that are only passed directly to other methods - e.g. ```var item = GetItem(); ProcessItem(item);```
   * Discouraged:
 
-    * When working with basic types - e.g. var success = true;
-    * When working with compiler-resolved built-in numeric types - e.g. var number = 12 * ReturnsFloat();
-    * When users would clearly benefit from knowing the type - e.g. var listOfItems = GetList();
+    * When working with basic types - e.g. ```var success = true;```
+    * When working with compiler-resolved built-in numeric types - e.g. ```var number = 12 * ReturnsFloat();```
+    * When users would clearly benefit from knowing the type - e.g. ```var listOfItems = GetList();```
  ## Argument Naming
 
   When the meaning of a function argument is nonobvious, consider one of the following remedies:
@@ -136,8 +136,25 @@
 
    Use elements for what they have been created for. For example, use heading elements for headings, p elements for paragraphs, h elements for headings, etc.
   ### Multimedia Fallback
+   Provide alternative contents for multimedia.
+
+   For multimedia, such as images, videos, animated objects via canvas, make sure to offer alternative access. For images that means use of meaningful alternative text (alt) and for video and audio transcripts and captions, if available.
   ### Separation of Concerns
+   Separate structure from presentation from behavior.
+
+   Strictly keep structure (markup), presentation (styling), and behavior (scripting) apart, and try to keep the interaction between the three to an absolute minimum.
+
+   That is, make sure documents and templates contain only HTML and HTML that is solely serving structural purposes. Move everything presentational into style sheets, and everything behavioral into scripts.
+
+   In addition, keep the contact area as small as possible by linking as few style sheets and scripts as possible from documents and templates.
+
+   Separating structure from presentation from behavior is important for maintenance reasons. It is always more expensive to change HTML documents and templates than it is to update style sheets and scripts.
   ### Entity References
+   Do not use entity references.
+
+   There is no need to use entity references like ```&mdash;```, ```&rdquo;```, or ```&#x263a;```, assuming the same encoding (UTF-8) is used for files and editors as well as among teams.
+
+   The only exceptions apply to characters with special meaning in HTML (like ```<``` and ```&```) as well as control or “invisible” characters (like no-break spaces).
   ### Optional Tags
   ### ```type``` Attributes
   ### ```id``` Attributes
