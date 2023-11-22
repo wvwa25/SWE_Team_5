@@ -151,24 +151,28 @@
    Use valid CSS where possible.
 
    Unless dealing with CSS validator bugs or requiring proprietary syntax, use valid CSS code.
-  ### 
-  ### 
-  ### 
-  ### 
-  ### 
-  ### 
-  ### 
-  ### 
-  ### 
-  ### 
-  ### 
-  ### 
- ##
-  ###
-  ###
-  ###
-  ###
-  ###
-  ###
-  ###
-  ###
+  ### Class Naming
+  ### Class Name Style
+  ### Class Name Delimiters
+  ### Prefixes
+  ### Type Selectors
+  ### ID Selectors
+  ### Shorthand Properties
+  ### 0 and Units
+  ### Leading 0s
+  ### Hexadecimal Notation
+  ### Important Declarations
+  ### Hacks
+ ## CSS Formatting Rules
+  ### Declaration Order
+  ### Block Content Indentation
+  ### Declaration Stops
+  ### Property Name Stops
+  ### Declaration Block Separation
+  ### Selector and Declaration Separation
+  ### Rule Separation
+  ### CSS Quotation Marks
+ ## CSS Meta Rules
+  ### Section Comments
+# Be Consistant
+ If you are editing, take some time to analyse the code surrounding you to determine it's style, then mirror it as you best you can.
