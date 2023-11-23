@@ -1,6 +1,11 @@
-# Entity Relationship Diagram
+## Entity Relationship Diagram
 
-![](https://mermaid.ink/img/pako:eNqVVE2P2jAQ_SsjS71lEZQCSW7bpq3YChYJemibHkwygKXEjmxHLBv477UdIKEbKtUnez7fvHlyRRKRIgkJyojRraR5zGP-XaGE4_HhQVTwLFPzCKHIaIKq9lUxB3PsdRoB4xq3JmbxrTFzmiMoLRnfQkw-ot4jchgD5SkMfEh2VNJEo1QxqZMWVKm9kOnbJP9-0lQ9pjnjsBYiQ8pN0mdO1xkqeEwMWAVaQB2xQapLiS7zZEesx7IzHitY0gzNiIngmjKurl5hvEdY7lhRGEyrQ4Fvgs5UuPsdLlrmL2ezbdiYf_1uHK1eHXmuTUQ1Xj0xcc_9zjAlHGqm6l2lJgZmsyj6YQ5shMypvhDn6qyEplmr0LLMQWxgqjFfSJag564r-uK5DbSh2TpnIh13Z6ZsfJsh66u6Jr7y8zdvl0FtpTtmA6gFevzuBvN1v9ZSddZatGrNb2Q6F5ALiaB3RkujfofgIlSJZIVmgt9Nu80DaLo5hBccLTNLrDbhafHVbgEloxl7rff3tHyeX5obCq24O9TOTBWr9bUZRmTplYT2yqp_CmzRob__JeeS-0ko3UzpgBCP5GgEyFLz1TgkMdE7zM2-QnNNcUPLzKnzZEJpqcXywBMSalmiR8oiNRo__08k3NBMGWtB-U8hmjemTAs5q78z96u5GBJW5IWEA9_vDQN_NPEH4-FkMBmOPXIgoR_0BkF_8r4_CoL-6MM4OHnk1VXt90anP7YRtto?type=png)
+As shown in the ER Diagram below, a User will initiate action by placing an Order containing one to many Sales, as well as one ShippingType selection.
+
+Each Sale will contain one Item. When the Sale is confirmed, the information entered during the checkout process will be initialized into a Sale object(s) and an Order object.
+All related Items will be deactivated upon purchase by setting "Salable" false.
+
+![](/project/assets/entity-relationship-diagram.png)
 
 ## Field Descriptions
 
