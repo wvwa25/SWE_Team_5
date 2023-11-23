@@ -72,11 +72,14 @@ The technical aspects of our design were flushed out in this phase, in which we 
 
 - The programming languages and frameworks we used for our application are listed [here](project/implementation.md), as well as an explanation of why we chose these technologies.
 
-**Entity Relationship Diagram**
+**Entity Relationship Diagram, Field Descriptions, and Example Data**
 
-- Click [here](project/entity-relationship-diagram.md) to view our Entity Relationship Diagram and data examples.
+- Our Entity Relationship Diagram and field descriptions show what data is stored in our system, how it will be stored, where it will go, and what it may look like.
+- Click [here](project/entity-relationship-diagram.md) to view our ER Diagram, entity field descriptions, and data examples.
 
-**Seed Data and Data Storage Plan**
+**Data Storage Plan and Seed Data**
+
+- We created a [breakdown](project/data-storage-plan) of how data will be stored and accessed in our database as well as what seed data will be in the database on startup.
 
 **Coding Style Guide**
 
@@ -84,4 +87,4 @@ The technical aspects of our design were flushed out in this phase, in which we 
 
 **Video Presentation**
 
-- Click [here]() to visit the link for our technical design presentation.
+- Lastly, click [here](vimeo.com) to visit the link for our technical design presentation.
