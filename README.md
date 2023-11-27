@@ -79,7 +79,7 @@ The technical aspects of our design were flushed out in this phase, in which we 
 
 **Data Storage Plan and Seed Data**
 
-- We created a [breakdown](project/data-storage-plan) of how data will be stored and accessed in our database as well as what seed data will be in the database on startup.
+- We created a [breakdown](project/data-storage-plan.md) of how data will be stored and accessed in our database as well as what seed data will be in the database on startup.
 
 **Coding Style Guide**
 
