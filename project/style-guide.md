@@ -1,6 +1,6 @@
 # Introduction
  This Guide is built from existing google style guides.
- I will go over parts of them in this guide, however please proceed to the following links if you are in need of a more in-depth summary:
+ Parts of them will be explicitly stated in this guide, however please proceed to the following links if you are in need of a more in-depth explanation:
 
  * See [here](https://google.github.io/styleguide/csharp-style.html) for the Google C# style guide
  * See [here](https://google.github.io/styleguide/htmlcssguide.html) for the Google HTML/CSS Style Guide
@@ -14,6 +14,8 @@ Strict guidelines must be followed when making changes to the application. To av
 * Avoid making multiple commits in one short time as these demand time from others. Instead, plan your changes by drafting them and only committing them when a test of the application yields the desired result in full.
 
 # Formatting Guidelines
+
+In addition to maintaining proper source control practices, consitent code formatting must be upheld in adherence to the following rules.
 
  ## Comments
   Explain code as needed, where possible.
