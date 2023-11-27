@@ -87,4 +87,4 @@ The technical aspects of our design were flushed out in this phase, in which we 
 
 **Video Presentation**
 
-- Lastly, click [here](vimeo.com) to visit the link for our technical design presentation.
+- Lastly, click [here](https://vimeo.com/888572379) to visit the link for our technical design presentation.
