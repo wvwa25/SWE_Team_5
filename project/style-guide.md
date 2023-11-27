@@ -1,11 +1,20 @@
-# Style Guide
+# Introduction
  This Guide is built from existing google style guides.
  I will go over parts of them in this guide, however please proceed to the following links if you are in need of a more in-depth summary:
 
  * See [here](https://google.github.io/styleguide/csharp-style.html) for the Google C# style guide
  * See [here](https://google.github.io/styleguide/htmlcssguide.html) for the Google HTML/CSS Style Guide
+
+# Source Control
+
+Strict guidelines must be followed when making changes to the application. To avoid any destructive changes to the code, these steps must be taken:
+* Before working on the application, go to the *Source Control* tab in Visual Studio and click *"Pull"* to update your local project files to the most recent version.
+* After making a change, run the application on your machine to ensure the application's functionality and display is as expected.
+* When you are finished making changes, go to *Source Control* and click *"Push"* to commit those changes to the repository. This will initiate a pull request in which your code will be reviewed by Trey to prevent potential breakage.
+* Avoid making multiple commits in one short time as these demand time from others. Instead, plan your changes by drafting them and only committing them when a test of the application yields the desired result in full.
+
 # Formatting Guidelines
- This part of the guide, along with the C# guidelines below, 
+
  ## Comments
   Explain code as needed, where possible.
 
