@@ -88,3 +88,15 @@ The technical aspects of our design were flushed out in this phase, in which we 
 **Video Presentation**
 
 - Lastly, click [here](https://vimeo.com/888572379) to visit the link for our technical design presentation.
+
+## Implementation
+
+Following the design phase, we went full force into coding our application. To ensure quality, Trey created [another repository on his profile](https://github.com/TreyBMorris/SWE_Team_5) to host the application so that he could review pull requests. Trey led the way for this phase and produced the majority of the code over fall break alongside Alejandro, who produced several backend features. Syl and Vera worked on frontend features to improve the appearance.
+
+Although we had only one and a half weeks to finish the project, we managed to implement nearly all of our must-have requirements in our application. Please visit the link above to view and download the complete application for our semester project!
+
+## Final Presentation
+
+To sum up our semester project, we produced one last video presentation. For our grand finale, we demonstrated the functionalities of the application in a video recording, then compared it to our UI mockup. We discussed what changed from the design phase to the implementation phase, what we feel went well, and what we feel challenged us. With the semester coming to a close, we were exhausted and nervous over finals week but very proud of the work we accomplished in such a limited time!
+
+Please view our presentation video [here]() and thank you again for checking out our work! Cheers 🥂😄
