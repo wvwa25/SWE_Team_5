@@ -99,4 +99,4 @@ Although we had only one and a half weeks to finish the project, we managed to i
 
 To sum up our semester project, we produced one last video presentation. For our grand finale, we demonstrated the functionalities of the application in a video recording, then compared it to our UI mockup. We discussed what changed from the design phase to the implementation phase, what we feel went well, and what we feel challenged us. With the semester coming to a close, we were exhausted and nervous over finals week but very proud of the work we accomplished in such a limited time!
 
-Please view our presentation video [here](https://vimeo.com/889831274?share=copy) and thank you again for checking out our work! Cheers 🥂😄
+Please view our last presentation video [here](https://vimeo.com/889831274?share=copy) and thank you again for checking out our work! Cheers 🥂😄
